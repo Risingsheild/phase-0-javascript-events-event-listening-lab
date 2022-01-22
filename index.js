@@ -1,2 +1,7 @@
+const input = document.getElementById('input');
+
 function addingEventListener() {
-    input.addEventListener('click', addingEventListener)}
+    input.addEventListener('click', function(event) {
+        return "Thats a click"
+    })
+}
